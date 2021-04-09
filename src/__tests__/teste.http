@@ -8,7 +8,7 @@ GET http://localhost:3000/ciclo/listar/
 
 ###
 
-GET http://localhost:3000/ciclo/listar/123/abc
+GET http://localhost:3000/ciclo/listar/
 
 ###
 

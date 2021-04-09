@@ -22,6 +22,7 @@
     "media-typer": "^0.3.0",
     "mime-db": "^1.46.0",
     "mime-types": "^2.1.29",
+    "mongoose": "^5.12.3",
     "ms": "^2.0.0",
     "negotiator": "^0.6.2",
     "on-finished": "^2.3.0",
@@ -35,7 +36,8 @@
     "toidentifier": "^1.0.0"
   },
   "devDependencies": {
-    "@types/express": "^4.17.11"
+    "@types/express": "^4.17.11",
+    "@types/mongoose": "^5.10.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

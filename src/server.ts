@@ -1,9 +1,10 @@
 import express, { Router } from "express";
-import { Request, Response } from "express"; 
 import { router } from "./config/routes";
-const app = express();
+import { mongoose } from "./config/database";
 
-console.clear();
+const app = express();
+const db = mongoose;
+
 
 //configuração
 app.use(express.json());
