@@ -10,7 +10,7 @@ router.get("/", (req: Request, res: Response) => {
 
 router.get("/ciclo/listar", cicloController.listar);
 
-router.post("/usuario/cadastrar", cicloController.cadastrar);
+router.post("/ciclo/cadastrar", cicloController.cadastrar);
 
 router.get("/ciclo/listar", (request: Request, response: Response) => {
     
